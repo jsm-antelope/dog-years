@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { humanToDogYears } from './utils/index.js'
 
 console.log('=================================')
-console.log(chalk.green('This is a human-to-dog years calc'))
+console.log(chalk.yellow('This is a human-to-dog years calc'))
 console.log('=================================')
 
 const response = await prompts([
@@ -24,5 +24,5 @@ const sentence = `
   `
 
 console.log('---------------------------------')
-console.log(chalk.blue(sentence))
+console.log(chalk.green(sentence))
 console.log('---------------------------------')
