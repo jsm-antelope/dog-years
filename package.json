@@ -1,0 +1,25 @@
+{
+  "name": "dog-years",
+  "version": "1.0.0",
+  "description": "\"# dog-years\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsm-antelope/dog-years.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsm-antelope/dog-years/issues"
+  },
+  "homepage": "https://github.com/jsm-antelope/dog-years#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "prompts": "^2.4.2"
+  }
+}
